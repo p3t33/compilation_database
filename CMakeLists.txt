@@ -16,3 +16,6 @@ add_executable(hello_world
     app/main.cpp
     lib/hello_world.cpp
 )
+
+# Link pthread library
+target_link_libraries(hello_world pthread)
